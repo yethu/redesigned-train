@@ -1,2 +1,2 @@
-FROM nginx:1.19.6-alpine
+FROM nginxinc/nginx-unprivileged:1.20-alpine
 COPY index.html /usr/share/nginx/html
